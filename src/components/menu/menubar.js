@@ -7,7 +7,7 @@ export default {
   },
   data() {
     return {
-      isHomeActive:true,
+      isHomeActive:false,
       isMsgActive: false,
       isWishListActive: false,
       isSettingActive: false,
@@ -29,6 +29,7 @@ export default {
         case 'home':
           this.resetMenu()
           this.isHomeActive= true
+          this.$router.push({ path: '/home' })
           break;
         case 'messages':
           this.resetMenu()

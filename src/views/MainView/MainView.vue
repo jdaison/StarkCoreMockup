@@ -8,12 +8,13 @@
         <MenuBar></MenuBar>
       </el-header>
       <el-main>
-        content
         <transition name="slide" mode="out-in">
           <router-view></router-view>
         </transition>
       </el-main>
-      <el-footer>footer</el-footer>
+      <el-footer>
+        <router-link :to="{ path: 'about' }">About</router-link>
+      </el-footer>
     </el-container>
   </el-container>
 </template>

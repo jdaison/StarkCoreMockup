@@ -1,0 +1,18 @@
+slide-enter-active,
+.slide-leave-active
+{
+  transition: transform 0.5s ease-out;
+}
+.slide-enter {
+  transform: translateY(-60%);
+}
+.slide-leave-to {
+  transform: translateY(60%);
+}
+
+
+.el-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

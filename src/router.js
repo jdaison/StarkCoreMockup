@@ -8,11 +8,13 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "home",
-      component: MainView
+      component: MainView,
+      children: [
+         { path: "/home", component: () => import("./views/Home/HomeView.vue") },      
+       ]
     }, 
     {
-      path: "/about", name: "about", component: () => import("./views/About.vue")
+      path: "/about", component: () => import("./views/About.vue")
     },
     { path: '*', redirect: '/404', hidden: true }
   ]
