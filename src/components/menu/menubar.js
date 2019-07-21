@@ -43,7 +43,8 @@ export default {
           break;
         case 'settings':
           this.resetMenu()
-          this.isSettingActive = true         
+          this.isSettingActive = true 
+          this.$router.push({ path: '/settings' })            
           break;
         case 'account':
           this.resetMenu()
