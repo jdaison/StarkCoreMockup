@@ -10,15 +10,15 @@
         <p>Smart Filters</p>
       </div>
       <div class="vertical-align">
-        <img id="img-logo" alt="starkcore logo" src="../../assets/sale.png"/>
+        <img src="../../assets/sale.png"/>
         <MySwitch ></MySwitch>
       </div>
       <div class="vertical-align">
-        <img id="img-logo" alt="starkcore logo" src="../../assets/calendar.png"/>
+        <img src="../../assets/calendar.png"/>
         <MySwitch ></MySwitch>
       </div>
       <div class="vertical-align">
-        <img id="img-logo" alt="starkcore logo" src="../../assets/heart.png"/> 
+        <img src="../../assets/heart.png"/> 
         <MySwitch ></MySwitch>
       </div>
 

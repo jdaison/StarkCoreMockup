@@ -3,6 +3,21 @@
   border-radius: 25px;
   display: flex;
   flex-direction: row;
+  
   padding: 1rem;
   margin-bottom: 1rem;
+}
+
+i {
+  color:white;
+  background-color: orange;
+  font-size: 2rem;
+  border-radius: 50%
+}
+
+.price{
+  font-size: 2rem;
+  font-weight: bold;
+  color:gray;
+
 }
