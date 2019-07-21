@@ -1,0 +1,59 @@
+.el-container {
+  padding: 0 40px; 
+  display: block;
+  justify-content: space-between;
+}
+.vertical-align {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.border-margin-padding-bottom{
+  border-bottom: 1px solid gray;
+  padding: 15px;
+}
+
+.border-margin-padding-top{
+  border-top: 1px solid gray;
+  padding: 15px;
+}
+
+
+i {
+  font-size: 1rem;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  margin: 2px
+}
+
+.el-switch{
+  height: 50px;
+}
+
+.label {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 2.5rem;
+  border-radius: 5px;
+  color: green;
+  width: 100%;
+  height: 2.5rem;
+  background-color: white;
+}
+
+.searchInput{
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 5px;
+}
+
+input { 
+  text-align: center;
+  border: none;
+}
+
