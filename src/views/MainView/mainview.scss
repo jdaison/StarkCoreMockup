@@ -1,6 +1,3 @@
-$break-small: 720px;
-$break-large: 1200px;
-
 slide-enter-active,
 .slide-leave-active
 {
@@ -13,3 +10,6 @@ slide-enter-active,
   transform: translateY(60%);
 }
 
+.el-header{
+  width: 1000px
+}

@@ -27,6 +27,10 @@ export default {
       return new Intl.NumberFormat('en-US',
         { style: 'currency', currency: 'USD' }
       ).format( value )
+    },
+    formatDate(value) {
+      return value.toLocaleDateString("en-US",
+        { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
     }
   }
 }

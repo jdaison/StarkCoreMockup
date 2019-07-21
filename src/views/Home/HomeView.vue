@@ -7,6 +7,7 @@
       :key = "item.id"
     >
     </car>
+    <AddButton class="add-button"></AddButton>
   </el-container>
 </template>
 

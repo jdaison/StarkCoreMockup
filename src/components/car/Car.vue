@@ -1,24 +1,26 @@
 <template>
   <el-container class="item-car">
     <el-row>
-      <el-col :span="4">
+      <el-col :span="2">
         <i class="el-icon-circle-check"></i>
       </el-col>
       <el-col :span="4">
-        {{posted}}
+        {{formatDate(posted)}}
       </el-col>
       <el-col :span="4">
         {{location}}
       </el-col>
-      <el-col :span="4">
+      <el-col :span="2">
         <div class="vertical-align">
           <img id="img-logo" alt="car" src="../../assets/car.png"/>
         </div>
       </el-col>
-      <el-col :span="4" class="price">
+      <el-col :span="6" class="price">
         {{formatPrice(price)}}
       </el-col>
-
+      <el-col :span="2">
+        <div class="dots"></div>
+      </el-col> 
     </el-row>
 
   </el-container>
