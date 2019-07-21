@@ -34,6 +34,7 @@ export default {
         case 'messages':
           this.resetMenu()
           this.isMsgActive= true
+          this.$router.push({ path: '/messages' })
           break;
         case 'wishlist':
           this.resetMenu()
