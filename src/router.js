@@ -12,6 +12,7 @@ export default new Router({
       children: [
          { path: "/home", component: () => import("./views/Home/HomeView.vue") },      
          { path: "/messages", component: () => import("./views/Messages/MessagesView.vue") },      
+         { path: "/wishlist", component: () => import("./views/WishList/WishListView.vue") },      
        ]
     }, 
     {

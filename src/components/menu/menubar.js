@@ -38,7 +38,8 @@ export default {
           break;
         case 'wishlist':
           this.resetMenu()
-          this.isWishListActive = true         
+          this.isWishListActive = true     
+          this.$router.push({ path: '/wishlist' })    
           break;
         case 'settings':
           this.resetMenu()
