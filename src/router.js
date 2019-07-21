@@ -14,6 +14,7 @@ export default new Router({
          { path: "/messages", component: () => import("./views/Messages/MessagesView.vue") },      
          { path: "/wishlist", component: () => import("./views/WishList/WishListView.vue") },      
          { path: "/settings", component: () => import("./views/Settings/SettingsView.vue") },      
+         { path: "/myaccount", component: () => import("./views/MyAccount/MyAccountView.vue") },      
        ]
     }, 
     {

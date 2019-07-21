@@ -49,6 +49,7 @@ export default {
         case 'account':
           this.resetMenu()
           this.isMyAccountActive = true        
+          this.$router.push({ path: '/myaccount' })     
           break; 
         default:
           break;
