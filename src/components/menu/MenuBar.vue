@@ -1,8 +1,5 @@
 <template>
   <ElContainer>
-    <div>
-      <img id="img-logo" alt="starkcore logo" src="../../assets/logo.png"/>
-    </div>
     <div v-on:click='toggleMenu($event)' id="home" v-bind:class="{ active: isHomeActive }" >
       <i class="el-icon-s-home"></i>
       <p>home</p>
