@@ -1,0 +1,35 @@
+.ElContainer {
+  width: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+#img-logo {
+  width: 50px
+}
+
+i {
+  font-size: 2rem;
+}
+
+div {
+  width: 100px;
+  text-align: center;
+}
+
+div:hover {
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 0.5rem;
+  margin: 2px
+}
+
+.active {
+  background-color: #142B38;
+  i,p {
+    color: white
+  }
+  z-index: 5;
+}
