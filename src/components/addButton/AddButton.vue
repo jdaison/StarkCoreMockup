@@ -1,6 +1,6 @@
 <template>
   <div>
-    <i class="el-icon-circle-plus"></i>
+    <i class="el-icon-circle-plus" v-on:click="addCar()"></i>
   </div>
 </template>
 

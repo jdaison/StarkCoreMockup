@@ -1,4 +1,6 @@
 
+import { mapMutations } from 'vuex'
+
 export default {
   components: {
     
@@ -12,6 +14,11 @@ export default {
     }
   },
   methods: {
-  
+    ...mapMutations([
+      'showNewCar'
+    ]),
+    addCar: function () {
+      this.showNewCar(true)
+    }
   }
 }
